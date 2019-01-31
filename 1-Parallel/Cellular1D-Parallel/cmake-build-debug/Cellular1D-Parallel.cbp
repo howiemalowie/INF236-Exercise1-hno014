@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Cellular1D-Parallel"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cellular1D-Parallel">
+				<Option output="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Cellular1D-Parallel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/howiemalowie/Downloads/openmpi-4.0.0/ompi/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cellular1D-Parallel"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Cellular1D-Parallel/fast">
+				<Option output="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Cellular1D-Parallel" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/howiemalowie/Downloads/openmpi-4.0.0/ompi/include"/>
+					<Add directory="/usr/include/c++/8"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/8"/>
+					<Add directory="/usr/include/c++/8/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/8/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 Cellular1D-Parallel/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp">
+			<Option target="Cellular1D-Parallel"/>
+		</Unit>
+		<Unit filename="/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
