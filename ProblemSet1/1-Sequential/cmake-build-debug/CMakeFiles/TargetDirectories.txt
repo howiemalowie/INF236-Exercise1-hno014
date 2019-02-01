@@ -1,0 +1,3 @@
+/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Sequential/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Sequential/cmake-build-debug/CMakeFiles/main.dir
+/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Sequential/cmake-build-debug/CMakeFiles/edit_cache.dir

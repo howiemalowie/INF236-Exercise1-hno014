@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Sequential/Cellular-1D-Sequential.cpp
+iostream
+-
+stdio.h
+-
+fstream
+-
+string
+-
+vector
+-
+map
+-
+

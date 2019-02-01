@@ -1,4 +1,1 @@
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel
--- Configuring done
--- Generating done
--- Build files have been written to: /home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug
+CMakeLists.txt not found in /home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel Select CMakeLists.txt file...

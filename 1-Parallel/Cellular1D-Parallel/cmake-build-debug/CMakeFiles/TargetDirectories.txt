@@ -1,3 +1,0 @@
-/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir
-/home/howiemalowie/INF236-Exercise1-hno014/1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/edit_cache.dir
