@@ -12,74 +12,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5f25df96-831a-4402-952f-9ac49a47b026" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/.idea/1-Parallel.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/.idea/untitled.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/1-Parallel.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/1-Parallel.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/1-Parallel.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/1-Parallel.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/1-Parallel.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/1-Parallel.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/1-Parallel.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/1-Parallel.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/Cellular1D-Parallel.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Progress/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/feature_tests.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/Cellular1D-Parallel.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/untitled" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/untitled.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/mod2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Sequential/Cellular-1D-Sequential.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Sequential/file1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Sequential/file2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../1-Sequential/middle30.txt" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2-Sequential/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2-Sequential/Cellular2D-sequential.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../2-Sequential/Cellular2D-sequential.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../1-Parallel/Cellular1D-Parallel/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -94,8 +32,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cellular1D-Parallel.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-682">
-              <caret line="150" column="41" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
+            <state relative-caret-position="308">
+              <caret line="195" column="37" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -129,7 +67,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="993" />
     <option name="y" value="27" />
-    <option name="width" value="927" />
+    <option name="width" value="917" />
     <option name="height" value="1173" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -154,7 +92,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../1-Sequential" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../2-Sequential" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
@@ -191,12 +129,12 @@
       <workItem from="1548675468261" duration="5461000" />
       <workItem from="1548752284957" duration="23743000" />
       <workItem from="1548945559452" duration="939000" />
-      <workItem from="1549005279859" duration="1875000" />
+      <workItem from="1549005279859" duration="2229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32926000" />
+    <option name="totallyTimeSpent" value="33280000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1173" extended-state="6" />
@@ -249,8 +187,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cellular1D-Parallel.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-682">
-          <caret line="150" column="41" selection-start-line="150" selection-start-column="41" selection-end-line="150" selection-end-column="41" />
+        <state relative-caret-position="308">
+          <caret line="195" column="37" selection-start-line="195" selection-start-column="37" selection-end-line="195" selection-end-column="37" />
           <folding>
             <element signature="e#0#16#0" expanded="true" />
           </folding>
