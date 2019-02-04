@@ -14,10 +14,6 @@
 
 using namespace std;
 
-int binConv(string binary);
-int binNum[512];
-int size;
-double decimal;
 
 string buildString(vector<string> board, int j, int k, int dim) {
 
@@ -67,8 +63,8 @@ string buildString(vector<string> board, int j, int k, int dim) {
 
                 if (k == 0) {
                     b.push_back(board[j - 1][dim - 1]);
-                    b.push_back(board[j - 1][0]);
-                    b.push_back(board[j - 1][1]);
+                    b.push_back(board[j - 1][k]);
+                    b.push_back(board[j - 1][k+1]);
 
                     b.push_back(board[j][dim - 1]);
                     b.push_back(board[j][k]);
@@ -78,9 +74,9 @@ string buildString(vector<string> board, int j, int k, int dim) {
                     b.push_back(board[0][k]);
                     b.push_back(board[0][k + 1]);
                 } else if (k == dim - 1) {
-                    b.push_back(board[dim - 1][k - 1]);
-                    b.push_back(board[dim - 1][k]);
-                    b.push_back(board[dim - 1][0]);
+                    b.push_back(board[j-1][k - 1]);
+                    b.push_back(board[j-1][k]);
+                    b.push_back(board[j-1][0]);
 
                     b.push_back(board[j][k - 1]);
                     b.push_back(board[j][k]);
@@ -104,63 +100,99 @@ string buildString(vector<string> board, int j, int k, int dim) {
                     b.push_back(board[0][k + 1]);
 
                 }
+            }   else{
+
+                    if(k==0){
+                        b.push_back(board[j - 1][dim-1]);
+                        b.push_back(board[j - 1][k]);
+                        b.push_back(board[j - 1][k + 1]);
+
+                        b.push_back(board[j][dim - 1]);
+                        b.push_back(board[j][k]);
+                        b.push_back(board[j][k + 1]);
+
+                        b.push_back(board[j + 1][dim - 1]);
+                        b.push_back(board[j + 1][k]);
+                        b.push_back(board[j + 1][k + 1]);
+
+                    } else if(k==dim-1){
+
+                        b.push_back(board[j - 1][k - 1]);
+                        b.push_back(board[j - 1][k]);
+                        b.push_back(board[j - 1][0]);
+
+                        b.push_back(board[j][k - 1]);
+                        b.push_back(board[j][k]);
+                        b.push_back(board[j][0]);
+
+                        b.push_back(board[j + 1][k - 1]);
+                        b.push_back(board[j + 1][k]);
+                        b.push_back(board[j + 1][0]);
+                    }
+                    else{
+                        b.push_back(board[j - 1][k - 1]);
+                        b.push_back(board[j - 1][k]);
+                        b.push_back(board[j - 1][k + 1]);
+
+                        b.push_back(board[j][k - 1]);
+                        b.push_back(board[j][k]);
+                        b.push_back(board[j][k + 1]);
+
+                        b.push_back(board[j + 1][k - 1]);
+                        b.push_back(board[j + 1][k]);
+                        b.push_back(board[j + 1][k + 1]);
+                    }
             }
-
-                else{
-                    b.push_back(board[j - 1][k - 1]);
-                    b.push_back(board[j - 1][k]);
-                    b.push_back(board[j - 1][k + 1]);
-
-                    b.push_back(board[j][k - 1]);
-                    b.push_back(board[j][k]);
-                    b.push_back(board[j][k + 1]);
-
-                    b.push_back(board[j + 1][k - 1]);
-                    b.push_back(board[j + 1][k]);
-                    b.push_back(board[j + 1][k + 1]);
-                }
                 return b;
             }
 
 
 int binConv(string binary)
 {
-    decimal = 0;
-    size = binNum.size();
+    int decimal = 0;
+    int indexCounter = 0;
+    cout << "Binary: " << binary;
 
-    for (int counter = 0; counter < size; counter++)
+    //TODO: CONVERT TO DECIMAL
+    for(int i = binary.length()-1; i >= 0; i--)
     {
-        if (binNum[counter] == '1')
-            decimal = (decimal + pow(2.0,counter));
-        else
-            decimal = (decimal + pow(0.0,counter));
+
+        if(binary[i] == '1')
+        {
+            decimal += pow(2, indexCounter);
+        }
+        indexCounter++;
     }
-    return decimal;
+
+    printf(" Decimal: %d", decimal);
+    cout << '\n';
+    return (decimal);
 }
 
 
 int main(int argsv, char** argsc) {
-    const int MAX = 9;
     int dim;
     vector<string> rules;
     vector<string> board;
 
-    string file2 = argsc[0];
-    int t = stoi(argsc[1]);
+    string file2 = "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/2-Sequential/blinker.txt";
+    int t = 1;
 
 
     ifstream infile(file2);
     string line;
 
     getline(infile, line);
-    dim = stoi(line.c_str());
-    while (getline(infile, line)) {
-        board.push_back(line.c_str());
+    dim = atoi(line.c_str());
+    cout << dim << "\n";
+    for(int i=0; i< dim;i++){
+        (getline(infile, line));
+        board.push_back(line);
     }
     infile.close();
 
     for (int i = 0; i < 512; i++) {
-        string binary = std::bitset<9>(i).to_string(); //to binary
+        string binary = bitset<9>(i).to_string(); //to binary
         size_t n = count(binary.begin(), binary.end(), '1');
         if (binary[4] == '0') {
             if (n == 3) {
@@ -181,6 +213,12 @@ int main(int argsv, char** argsc) {
 
     vector<string> newBoard = board;
 
+    for (int i = 0; i < dim; ++i)
+    {
+        cout << board[i] << endl;
+    }
+    cout << '\n';
+
     string b;
     for (int i = 0; i < t; i++) {
 
@@ -193,6 +231,13 @@ int main(int argsv, char** argsc) {
                 newBoard[j][k] = rules[index].back();
             }
         }
+        board = newBoard;
+
+        for (int i = 0; i < dim; ++i)
+        {
+            cout << board[i] << endl; //If you use a name like that, your bound to get shot.
+        }
+        cout << '\n';
     }
     return 0;
 }
