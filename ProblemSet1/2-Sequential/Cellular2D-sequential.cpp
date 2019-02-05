@@ -213,12 +213,6 @@ int main(int argsv, char** argsc) {
 
     vector<string> newBoard = board;
 
-    for (int i = 0; i < dim; ++i)
-    {
-        cout << board[i] << endl;
-    }
-    cout << '\n';
-
     string b;
     for (int i = 0; i < t; i++) {
 
@@ -232,13 +226,14 @@ int main(int argsv, char** argsc) {
             }
         }
         board = newBoard;
-
-        for (int i = 0; i < dim; ++i)
-        {
-            cout << board[i] << endl; //If you use a name like that, your bound to get shot.
-        }
-        cout << '\n';
     }
+
+    for (int i = 0; i < dim; ++i)
+    {
+        cout << board[i] << endl;
+    }
+    cout << '\n';
+
     return 0;
 }
 
