@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/2-Sequential/Cellular2D-sequential.cpp
+Cellular2D-sequential.h
+/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/2-Sequential/Cellular2D-sequential.h
+iostream
+-
+stdio.h
+-
+stdlib.h
+-
+bitset
+-
+vector
+-
+algorithm
+-
+fstream
+-
+cmath
+-
+
+/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/2-Sequential/Cellular2D-sequential.h
+
