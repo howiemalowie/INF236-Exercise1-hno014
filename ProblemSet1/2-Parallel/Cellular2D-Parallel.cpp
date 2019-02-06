@@ -13,21 +13,17 @@ using namespace std;
 void buildString(char* builtString, char partition[], int counter, int x, int y, int dim){
 
     //TODO: Create string of nearby elements
-    builtString[0] = '0';
-    builtString[1] = '1';
-    builtString[2] = '0';
-    builtString[3] = '0';
-    builtString[4] = '1';
-    builtString[5] = '1';
-    builtString[6] = '0';
-    builtString[7] = '0';
-    builtString[8] = '0';
+    char up,down,left,right,upleft,downright,upright,downleft;
+
 
     if(x==0){
         if(y==0){
 
         }
     }
+
+
+
 
 }
 
@@ -123,6 +119,23 @@ int main(int argc, char** argv){
     char builtString[9];
     int counter = 0;
     for(char c : temp_board){
+
+        char up=c, down=c, left=c, right=c;
+        int rankOfProcessBelow = my_rank + (dim+counter)/part;
+        if(rankOfProcessBelow > comm_sz-1){
+            rankOfProcessBelow -= comm_sz;
+        }
+        int rankOfProcessAbove = my_rank - (dim/part);
+        if(rankOfProcessAbove < 0){
+            rankOfProcessAbove += comm_sz;
+        }
+        MPI_Send(&up, 1, MPI_CHAR, rankOfProcessBelow, 0, MPI_COMM_WORLD);
+        MPI_Send(&down, 1, MPI_CHAR, rankOfProcessAbove, 0, MPI_COMM_WORLD);
+
+        if(counter==0 && comm_sz != 1){
+
+        }
+
         buildString(builtString, temp_board, counter, x, y, dim);
 
         if(y == dim-1){

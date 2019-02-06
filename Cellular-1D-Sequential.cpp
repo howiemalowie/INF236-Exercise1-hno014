@@ -1,14 +1,3 @@
-#include <iostream>
-#include <stdio.h>
-#include <fstream>
-#include <string>
-#include <vector>
-#include <map>
-
-using namespace std;
-
-typedef map<string, char> Map;
-
 int Cellular1DSequential(string file1, string file2, int t){
 
     vector<vector<char>> matrix;
@@ -39,6 +28,7 @@ int Cellular1DSequential(string file1, string file2, int t){
         }
     }
     myReadFile2.close();
+
 
     char inp[3];
     for(int i=0; i<t; i++){
@@ -78,24 +68,11 @@ int Cellular1DSequential(string file1, string file2, int t){
 
     for(auto elem : matrix){
         for(int i=0; i< elem.size(); i++){
-            if(elem[i] == '1'){
-                printf("\u25A0");
-            }
-            else{
-                printf(" ");
-            }
-
+            cout << elem[i];
         }
         cout << '\n';
     }
 
 
     return 0;
-}
-
-int main(){
-
-    int n = Cellular1DSequential("/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Sequential/mod2.txt", "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Sequential/middle30.txt", 100);
-
-    return n;
 }

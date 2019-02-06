@@ -13,6 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="c6a0b243-8c09-4072-af3d-cd3c75763021" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/output" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Sequential/Cellular-1D-Sequential.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/Cellular-1D-Sequential.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Sequential/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-Parallel/Cellular2D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/Cellular2D-Parallel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -80,7 +88,7 @@
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="993" />
     <option name="y" value="27" />
-    <option name="width" value="927" />
+    <option name="width" value="917" />
     <option name="height" value="1173" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -144,7 +152,7 @@
       <workItem from="1549362122673" duration="113000" />
       <workItem from="1549364427062" duration="618000" />
       <workItem from="1549369956825" duration="596000" />
-      <workItem from="1549373229880" duration="869000" />
+      <workItem from="1549373229880" duration="1186000" />
     </task>
     <task id="LOCAL-00001" summary="oppgave 2 started">
       <created>1549021360418</created>
@@ -157,7 +165,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14626000" />
+    <option name="totallyTimeSpent" value="14943000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1173" extended-state="6" />

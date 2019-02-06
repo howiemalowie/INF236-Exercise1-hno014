@@ -13,8 +13,6 @@ typedef map<string, char> Map;
 
 int main(int argc, char **argv) {
 
-    int m[] = {1000, 2000, 4000, 8000, 16000, 32000, 64000};
-
 
     string file = argv[1];
     int t = atoi(argv[2]);
@@ -41,9 +39,10 @@ int main(int argc, char **argv) {
     MPI_Comm_size(MPI_COMM_WORLD, &comm_sz);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
 
-    for(int elem : m) {
+    for(int k=10; k<=20; k++) {
 
-        vector<char> booleanstring(elem, '0');
+
+        vector<char> booleanstring(k, '0');
         booleanstring.push_back('1');
         booleanstring.insert(booleanstring.end(), booleanstring.begin(), booleanstring.end());
         booleanstring.pop_back();
@@ -61,6 +60,7 @@ int main(int argc, char **argv) {
         } else {
             end = st + partSize - 1;
         }
+
 
         if (my_rank == 0) {
             start = clock();
@@ -194,7 +194,7 @@ int main(int argc, char **argv) {
 
         if (my_rank == 0) {
             time = (clock() - start) / (double) CLOCKS_PER_SEC;
-            printf("Time to compute step %d with m of size %d: %.2f seconds.\n", t, elem, time);
+            printf("Time to compute step %d with m of size %d and %d processes: %.4f seconds.\n", t, k, comm_sz, time);
         }
     }
 

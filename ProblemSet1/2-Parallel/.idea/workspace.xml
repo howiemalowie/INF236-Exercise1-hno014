@@ -13,6 +13,14 @@
   <component name="ChangeListManager">
     <list default="true" id="ec51f479-bdce-4ff5-9411-32342d5c65f7" name="Default Changelist" comment="continued parallel-2">
       <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/output" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/output" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Sequential/Cellular-1D-Sequential.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/Cellular-1D-Sequential.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-Sequential/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/cmake-build-debug/main" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Cellular2D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cellular2D-Parallel.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Sequential/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +32,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Cellular2D-Parallel.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="506">
-              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+            <state relative-caret-position="620">
+              <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
               <folding>
                 <element signature="e#45#60#0" expanded="true" />
               </folding>
@@ -45,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4224">
-              <caret line="192" column="9" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
+            <state relative-caret-position="836">
+              <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
               <folding>
                 <element signature="e#0#16#0" expanded="true" />
               </folding>
@@ -58,6 +66,11 @@
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>elem</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
@@ -68,13 +81,14 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/../2-Sequential/Cellular2D-sequential.cpp" />
         <option value="$PROJECT_DIR$/Cellular2D-Parallel.cpp" />
+        <option value="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="993" />
     <option name="y" value="27" />
-    <option name="width" value="927" />
+    <option name="width" value="917" />
     <option name="height" value="1173" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -99,7 +113,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1-Sequential" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -134,7 +148,7 @@
       <updated>1549362233960</updated>
       <workItem from="1549362236939" duration="3648000" />
       <workItem from="1549369954994" duration="1735000" />
-      <workItem from="1549373227660" duration="5745000" />
+      <workItem from="1549373227660" duration="17661000" />
     </task>
     <task id="LOCAL-00001" summary="continued parallel-2">
       <created>1549378505577</created>
@@ -154,10 +168,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11128000" />
+    <option name="totallyTimeSpent" value="23044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1173" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18369626" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -217,16 +232,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4224">
-          <caret line="192" column="9" selection-start-line="192" selection-start-column="9" selection-end-line="192" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../2-Sequential/Cellular2D-sequential.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-301">
@@ -236,10 +241,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Cellular2D-Parallel.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        <state relative-caret-position="620">
+          <caret line="129" column="42" lean-forward="true" selection-start-line="129" selection-start-column="42" selection-end-line="129" selection-end-column="42" />
           <folding>
             <element signature="e#45#60#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="836">
+          <caret line="68" column="22" lean-forward="true" selection-start-line="68" selection-start-column="22" selection-end-line="68" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
           </folding>
         </state>
       </provider>
