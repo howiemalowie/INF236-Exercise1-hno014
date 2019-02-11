@@ -12,15 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a0b243-8c09-4072-af3d-cd3c75763021" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/Cellular1D-Parallel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/output" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel/output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-Sequential/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-Sequential/Cellular-1D-Sequential.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/Cellular-1D-Sequential.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../1-Sequential/cmake-build-debug/main" beforeDir="false" afterPath="$PROJECT_DIR$/../1-Sequential/cmake-build-debug/main" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2-Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2-Parallel/Cellular2D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/Cellular2D-Parallel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,11 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Cellular2D-sequential.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4752">
-              <caret line="216" column="33" lean-forward="true" selection-start-line="216" selection-start-column="33" selection-end-line="216" selection-end-column="33" />
-              <folding>
-                <element signature="e#45#79#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="1300">
+              <caret line="199" column="20" lean-forward="true" selection-start-line="199" selection-start-column="20" selection-end-line="199" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -60,11 +50,6 @@
               <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Cellular2D-sequential.h">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -97,7 +82,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -109,11 +93,12 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../2-Parallel" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -153,6 +138,7 @@
       <workItem from="1549364427062" duration="618000" />
       <workItem from="1549369956825" duration="596000" />
       <workItem from="1549373229880" duration="1186000" />
+      <workItem from="1549874237956" duration="670000" />
     </task>
     <task id="LOCAL-00001" summary="oppgave 2 started">
       <created>1549021360418</created>
@@ -165,12 +151,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14943000" />
+    <option name="totallyTimeSpent" value="15613000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1173" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2456728" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24958123" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -202,11 +188,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Cellular2D-sequential.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4752">
-          <caret line="216" column="33" lean-forward="true" selection-start-line="216" selection-start-column="33" selection-end-line="216" selection-end-column="33" />
-          <folding>
-            <element signature="e#45#79#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="1300">
+          <caret line="199" column="20" lean-forward="true" selection-start-line="199" selection-start-column="20" selection-end-line="199" selection-end-column="20" />
         </state>
       </provider>
     </entry>
