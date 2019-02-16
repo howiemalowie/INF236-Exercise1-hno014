@@ -110,46 +110,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 main
-.PHONY : main
-
-# fast build rule for target.
-main/fast:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
-.PHONY : main/fast
-
-Cellular2D-Parallel.o: Cellular2D-Parallel.cpp.o
-
-.PHONY : Cellular2D-Parallel.o
-
-# target to build an object file
-Cellular2D-Parallel.cpp.o:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Cellular2D-Parallel.cpp.o
-.PHONY : Cellular2D-Parallel.cpp.o
-
-Cellular2D-Parallel.i: Cellular2D-Parallel.cpp.i
-
-.PHONY : Cellular2D-Parallel.i
-
-# target to preprocess a source file
-Cellular2D-Parallel.cpp.i:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Cellular2D-Parallel.cpp.i
-.PHONY : Cellular2D-Parallel.cpp.i
-
-Cellular2D-Parallel.s: Cellular2D-Parallel.cpp.s
-
-.PHONY : Cellular2D-Parallel.s
-
-# target to generate assembly for a file
-Cellular2D-Parallel.cpp.s:
-	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Cellular2D-Parallel.cpp.s
-.PHONY : Cellular2D-Parallel.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -157,11 +117,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... main"
 	@echo "... edit_cache"
-	@echo "... Cellular2D-Parallel.o"
-	@echo "... Cellular2D-Parallel.i"
-	@echo "... Cellular2D-Parallel.s"
 .PHONY : help
 
 
