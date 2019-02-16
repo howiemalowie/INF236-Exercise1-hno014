@@ -12,7 +12,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c6a0b243-8c09-4072-af3d-cd3c75763021" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2-Parallel/Cellular2D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/Cellular2D-Parallel.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />

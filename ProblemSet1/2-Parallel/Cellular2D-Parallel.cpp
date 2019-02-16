@@ -178,6 +178,8 @@ int main(int argc, char **argv){
     MPI_Comm_size(MPI_COMM_WORLD, &comm_sz);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
 
+    MPI_Request req;
+
 
     //All processes read the rules
     ifstream infile1(file1);
@@ -228,7 +230,7 @@ int main(int argc, char **argv){
                 for (int j = 0; j < part; j++) {
                     line = board[lineToSend];
                     //cout << "\nTrying to send to process " << i;
-                    MPI_Send(&line[0], n, MPI_CHAR, i, 0, MPI_COMM_WORLD);
+                    MPI_Isend(&line[0], n, MPI_CHAR, i, 0, MPI_COMM_WORLD, &req);
                     lineToSend++;
                 }
             }
@@ -237,7 +239,7 @@ int main(int argc, char **argv){
             while (lineToSend < n) {
                 line = board[lineToSend];
                 //cout << "\nTrying to send to process " << comm_sz - 1;
-                MPI_Send(&line[0], n, MPI_CHAR, comm_sz - 1, 0, MPI_COMM_WORLD);
+                MPI_ISend(&line[0], n, MPI_CHAR, comm_sz - 1, 0, MPI_COMM_WORLD, &req);
                 lineToSend++;
             }
 
@@ -277,9 +279,9 @@ int main(int argc, char **argv){
             }
 
             //cout << "\n" << my_rank << " trying to send to process " << rankAbove;
-            MPI_Send(&lastLine[0], n, MPI_CHAR, rankAbove, 0, MPI_COMM_WORLD);
+            MPI_Isend(&lastLine[0], n, MPI_CHAR, rankAbove, 0, MPI_COMM_WORLD, &req);
             //cout << "\n" << my_rank << " trying to send to process " << rankBelow;
-            MPI_Send(&firstLine[0], n, MPI_CHAR, rankBelow, 0, MPI_COMM_WORLD);
+            MPI_Isend(&firstLine[0], n, MPI_CHAR, rankBelow, 0, MPI_COMM_WORLD, &req);
 
             MPI_Recv(&lastLine[0], n, MPI_CHAR, rankBelow, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
             MPI_Recv(&firstLine[0], n, MPI_CHAR, rankAbove, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
@@ -327,13 +329,13 @@ int main(int argc, char **argv){
                     int d = newLines.size();
                     for (int i = 0; i < d; i++) {
                         line = newLines[i];
-                        MPI_Send(&line[0], n, MPI_CHAR, 0, 0, MPI_COMM_WORLD);
+                        MPI_Isend(&line[0], n, MPI_CHAR, 0, 0, MPI_COMM_WORLD, &req);
                     }
                 }
             }
         }
 
-
+    MPI_Request_free(&req);
     MPI_Finalize();
 
     return 0;
