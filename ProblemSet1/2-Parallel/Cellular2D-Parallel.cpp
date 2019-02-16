@@ -162,15 +162,19 @@ int binConv(char* binary)
 int main(int argc, char **argv){
 
     string file1 = argv[1];
-    int t = atoi(argv[2]);
+    string file2 = argv[2];
+    int t = atoi(argv[3]);
+
 
     clock_t start;
     double time;
     int my_rank;
     int comm_sz;
-    int n;
     int part;
+    int n;
     vector<vector<char>> rules;
+    vector <vector<char>> board;
+    vector <vector<char>> myLines;
 
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &comm_sz);
@@ -189,25 +193,20 @@ int main(int argc, char **argv){
 
     infile1.close();
 
-    for (n = 1024; n <= 65536;) {
 
-        vector<vector<char>> board;
-        vector<vector<char>> myLines;
 
-        //Root process generates random board
+        //Root process reads random board
         if (my_rank == 0) {
 
-            board.resize(n);
-            for (int i = 0; i < n; i++){
-                board[i].resize(n);
-                for (int j = 0; j < n; j++){
-                    int cell = rand() % 2;
-                    if(cell == 1){
-                        board[i][j] = '1';
-                    }
-                    else{
-                        board[i][j] = '0';
-                    }
+            ifstream infile2(file2);
+            string line2;
+            if (infile2.is_open()) {
+                getline(infile2, line2);
+                n = stoi(line2);
+                //cout << n;
+                while (getline(infile2, line2)) {
+                    vector<char> line2_char(line2.begin(), line2.end());
+                    board.push_back(line2_char);
                 }
             }
 
@@ -215,62 +214,60 @@ int main(int argc, char **argv){
 
             //Broadcast how many lines each process receives
             MPI_Bcast(&part, 1, MPI_INT, 0, MPI_COMM_WORLD);
+
+            start = clock();
+            //Give lines to root process
+            for (int i = 0; i < part; i++) {
+                myLines.push_back(board.at(i));
+            }
+
+
+            //Distribute lines to other processes
+            int lineToSend = part;
+            vector<char> line;
+            for (int i = 1; i < comm_sz - 1; i++) {
+                for (int j = 0; j < part; j++) {
+                    line = board[lineToSend];
+                    //cout << "\nTrying to send to process " << i;
+                    MPI_Send(&line[0], n, MPI_CHAR, i, 0, MPI_COMM_WORLD);
+                    lineToSend++;
+                }
+            }
+
+            //Send remaining lines to last process
+            while (lineToSend < n) {
+                line = board[lineToSend];
+                //cout << "\nTrying to send to process " << comm_sz - 1;
+                MPI_Send(&line[0], n, MPI_CHAR, comm_sz - 1, 0, MPI_COMM_WORLD);
+                lineToSend++;
+            }
+
         } else {
             MPI_Bcast(&part, 1, MPI_INT, 0, MPI_COMM_WORLD);
+
+            n = part * comm_sz;
+            vector<char> line(n);
+            for (int j = 0; j < part; j++) {
+                MPI_Recv(&line[0], n, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                myLines.push_back(line);
+            }
+
+
+            if (my_rank == comm_sz - 1) {
+                for (int i = 0; i < n % comm_sz; i++) {
+                    MPI_Recv(&line[0], n, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                    myLines.push_back(line);
+                }
+            }
         }
 
         //Update board k times
         for (int k = 0; k < t; k++) {
 
-            if (my_rank == 0) {
-                start = clock();
-                //Give lines to root process
-                for (int i = 0; i < part; i++) {
-                    myLines.push_back(board.at(i));
-                }
-
-
-                //Distribute lines to other processes
-                int lineToSend = part;
-                vector<char> line;
-                for (int i = 1; i < comm_sz - 1; i++) {
-                    for (int j = 0; j < part; j++) {
-                        line = board[lineToSend];
-                        //cout << "\nTrying to send to process " << i;
-                        MPI_Send(&line[0], n, MPI_CHAR, i, 0, MPI_COMM_WORLD);
-                        lineToSend++;
-                    }
-                }
-
-                //Send remaining lines to last process
-                while (lineToSend < n) {
-                    line = board[lineToSend];
-                    //cout << "\nTrying to send to process " << comm_sz - 1;
-                    MPI_Send(&line[0], n, MPI_CHAR, comm_sz - 1, 0, MPI_COMM_WORLD);
-                    lineToSend++;
-                }
-
-            } else {
-                vector<char> line(n);
-                for (int j = 0; j < part; j++) {
-                    MPI_Recv(&line[0], n, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                    myLines.push_back(line);
-                }
-
-
-                if (my_rank == comm_sz - 1) {
-                    for (int i = 0; i < n % comm_sz; i++) {
-                        MPI_Recv(&line[0], n, MPI_CHAR, 0, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                        myLines.push_back(line);
-                    }
-                }
-            }
-
-            //cout << "\n" << my_rank << " ready to move on";
 
             //Send and receive neighbour lines
             vector<char> lastLine = myLines[0];
-            vector<char> firstLine = myLines[myLines.size()-1];
+            vector<char> firstLine = myLines[myLines.size() - 1];
             int rankAbove = my_rank - 1;
             int rankBelow = my_rank + 1;
 
@@ -289,7 +286,7 @@ int main(int argc, char **argv){
             MPI_Recv(&firstLine[0], n, MPI_CHAR, rankAbove, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
 
             //Update cells
-            vector <vector<char>> newLines = myLines;
+            vector<vector<char>> newLines = myLines;
             int bin;
             char builtString[9];
             int d = myLines.size();
@@ -304,42 +301,38 @@ int main(int argc, char **argv){
                 }
             }
 
-            vector<char> line(n);
-            if (my_rank == 0) {
-                //Receive updated lines
-                for (int i = 1; i < comm_sz - 1; i++) {
-                    for (int j = 0; j < part; j++) {
-                        MPI_Recv(&line[0], n, MPI_CHAR, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+            //Gather final board
+            if(k == t-1){
+                vector<char> line(n);
+                if (my_rank == 0) {
+                    //Receive updated lines
+                    for (int i = 1; i < comm_sz - 1; i++) {
+                        for (int j = 0; j < part; j++) {
+                            MPI_Recv(&line[0], n, MPI_CHAR, i, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
+                            newLines.push_back(line);
+                        }
+                    }
+
+                    //Receive additional lines from last process
+                    for (int i = 0; i < n % comm_sz; i++) {
+                        MPI_Recv(&line[0], n, MPI_CHAR, comm_sz - 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                         newLines.push_back(line);
                     }
+
+                    time = (clock() - start) / (double) CLOCKS_PER_SEC;
+                    printf("Time to compute step %d with boardsize %d and %d processes: %.6f seconds.\n", t, n, comm_sz, time);
+
+                    board = newLines;
+                } else {
+                    //Send updated cells to root
+                    int d = newLines.size();
+                    for (int i = 0; i < d; i++) {
+                        line = newLines[i];
+                        MPI_Send(&line[0], n, MPI_CHAR, 0, 0, MPI_COMM_WORLD);
+                    }
                 }
-
-                //Receive additional lines from last process
-                for (int i = 0; i < n % comm_sz; i++) {
-                    MPI_Recv(&line[0], n, MPI_CHAR, comm_sz - 1, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-                    newLines.push_back(line);
-                }
-
-
-
-                board = newLines;
-            } else {
-                //Send updated cells to root
-                int d = newLines.size();
-                for (int i = 0; i < d; i++) {
-                    line = newLines[i];
-                    MPI_Send(&line[0], n, MPI_CHAR, 0, 0, MPI_COMM_WORLD);
-                }
-
             }
         }
-        if (my_rank == 0) {
-            time = (clock() - start) / (double) CLOCKS_PER_SEC;
-            printf("Time to compute step %d with boardsize %d and %d processes: %.6f seconds.\n", t, n, comm_sz, time);
-        }
-        n = n*2;
-        MPI_Barrier(MPI_COMM_WORLD);
-    }
 
 
     MPI_Finalize();

@@ -13,15 +13,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c6a0b243-8c09-4072-af3d-cd3c75763021" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../2-Parallel/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2-Parallel/Cellular2D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/Cellular2D-Parallel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/2-Parallel.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/2-Parallel.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../2-Parallel/output" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Parallel/output" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
