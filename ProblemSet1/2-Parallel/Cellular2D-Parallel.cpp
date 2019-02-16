@@ -207,7 +207,7 @@ int main(int argc, char **argv){
                     board.push_back(line2_char);
                 }
             }
-            file2.close();
+            infile2.close();
 
             part = n / comm_sz;
 
