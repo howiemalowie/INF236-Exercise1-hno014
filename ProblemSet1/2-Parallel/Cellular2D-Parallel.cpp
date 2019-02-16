@@ -165,8 +165,6 @@ int main(int argc, char **argv){
     string file2 = argv[2];
     int t = atoi(argv[3]);
 
-
-    clock_t start;
     double time;
     int my_rank;
     int comm_sz;
@@ -209,13 +207,14 @@ int main(int argc, char **argv){
                     board.push_back(line2_char);
                 }
             }
+            file2.close();
 
             part = n / comm_sz;
 
             //Broadcast how many lines each process receives
             MPI_Bcast(&part, 1, MPI_INT, 0, MPI_COMM_WORLD);
 
-            start = clock();
+            time = MPI_Wtime();
             //Give lines to root process
             for (int i = 0; i < part; i++) {
                 myLines.push_back(board.at(i));
@@ -319,7 +318,7 @@ int main(int argc, char **argv){
                         newLines.push_back(line);
                     }
 
-                    time = (clock() - start) / (double) CLOCKS_PER_SEC;
+                    time = MPI_Wtime()-time;
                     printf("Time to compute step %d with boardsize %d and %d processes: %.6f seconds.\n", t, n, comm_sz, time);
 
                     board = newLines;
