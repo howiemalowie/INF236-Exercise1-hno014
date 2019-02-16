@@ -1,8 +1,8 @@
 #!/bin/bash
 
-#module load mpi/openmpi-x86_64
-mpiCC -std=c++11 ../1-Parallel/Cellular1D-Parallel.cpp -O3 -o 1parallel.o
-mpiCC -std=c++11 ../2-Parallel/Cellular2D-Parallel.cpp -O3 -o 2parallel.o
+module load mpi/openmpi-x86_64
+
+mpiCC -std=c++11 Cellular2D-Parallel.cpp -O3 -o 2parallel.o
 
 rm output/results2D.txt
 
