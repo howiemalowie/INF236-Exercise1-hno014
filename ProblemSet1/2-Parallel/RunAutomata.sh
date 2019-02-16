@@ -2,7 +2,7 @@
 
 module load mpi/openmpi-x86_64
 
-mpiCC -std=c++11 Cellular2D-Parallel.cpp -O3 -o 2parallel.o
+mpiCC -g -std=c++11 -W -Wall -Winline -Wextra -o output Cellular2D-Parallel.cpp
 
 rm output/results2D.txt
 
@@ -15,8 +15,8 @@ do
 	result=()
 	for p in "${processes[@]}"
 	do
-		result=("${result[@]}" $(mpiexec -n "$p" ./2parallel.o rules/gameoflife.txt input/gameoflife"$i".txt 1))
+		result=("${result[@]}" $(mpiexec -n "$p" output gameoflife.txt gameoflife"$i".txt 1))
 	done
 	printf "\n $i" >> output/results2D.txt
 	printf "%15s" "${result[@]}" >> output/results2D.txt
-done
+donels
