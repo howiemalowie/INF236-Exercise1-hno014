@@ -239,7 +239,7 @@ int main(int argc, char **argv){
             while (lineToSend < n) {
                 line = board[lineToSend];
                 //cout << "\nTrying to send to process " << comm_sz - 1;
-                MPI_ISend(&line[0], n, MPI_CHAR, comm_sz - 1, 0, MPI_COMM_WORLD, &req);
+                MPI_Isend(&line[0], n, MPI_CHAR, comm_sz - 1, 0, MPI_COMM_WORLD, &req);
                 lineToSend++;
             }
 
