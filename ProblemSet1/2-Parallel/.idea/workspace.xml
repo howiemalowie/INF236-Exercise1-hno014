@@ -9,9 +9,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec51f479-bdce-4ff5-9411-32342d5c65f7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Cellular2D-Parallel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Cellular2D-Parallel.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="ec51f479-bdce-4ff5-9411-32342d5c65f7" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,12 +21,12 @@
     <window id="1">
       <content type="file-editors">
         <state>
-          <leaf>
+          <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
             <file pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel.cpp">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="280">
-                    <caret line="168" column="84" lean-forward="true" selection-start-line="168" selection-start-column="84" selection-end-line="168" selection-end-column="84" />
+                  <state relative-caret-position="368">
+                    <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
                   </state>
                 </provider>
               </entry>
@@ -61,7 +59,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/../2-Sequential/Cellular2D-sequential.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3256">
+            <state relative-caret-position="5104">
               <caret line="232" column="33" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
             </state>
           </provider>
@@ -104,7 +102,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -116,6 +113,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -150,6 +148,7 @@
       <workItem from="1549369954994" duration="1735000" />
       <workItem from="1549373227660" duration="17661000" />
       <workItem from="1549874290756" duration="36754000" />
+      <workItem from="1550396507472" duration="22000" />
     </task>
     <task id="LOCAL-00001" summary="continued parallel-2">
       <created>1549378505577</created>
@@ -176,7 +175,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59798000" />
+    <option name="totallyTimeSpent" value="59820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1173" extended-state="6" />
@@ -239,17 +238,11 @@
     <entry file="file://$PROJECT_DIR$/output">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/helloworld.cpp">
+    <entry file="file://$PROJECT_DIR$/helloworld.cpp" />
+    <entry file="file://$PROJECT_DIR$/Cellular2D-Parallel.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../2-Sequential/Cellular2D-sequential.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3256">
-          <caret line="232" column="33" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
+        <state relative-caret-position="772">
+          <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -260,17 +253,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel.cpp">
+    <entry file="file://$PROJECT_DIR$/../2-Sequential/Cellular2D-sequential.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="168" column="84" lean-forward="true" selection-start-line="168" selection-start-column="84" selection-end-line="168" selection-end-column="84" />
+        <state relative-caret-position="5104">
+          <caret line="232" column="33" selection-start-line="232" selection-start-column="33" selection-end-line="232" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Cellular2D-Parallel.cpp">
+    <entry file="file://$PROJECT_DIR$/../1-Parallel/Cellular1D-Parallel.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="772">
-          <caret line="337" column="25" selection-start-line="337" selection-start-column="25" selection-end-line="337" selection-end-column="25" />
+        <state relative-caret-position="368">
+          <caret line="166" lean-forward="true" selection-start-line="166" selection-end-line="166" />
         </state>
       </provider>
     </entry>

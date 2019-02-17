@@ -16,7 +16,7 @@ int main(int argc, char **argv) {
 
     string file = argv[1];
     int t = atoi(argv[2]);
-
+    int stringSize;
     int comm_sz;
     int my_rank;
     clock_t start;
@@ -42,11 +42,21 @@ int main(int argc, char **argv) {
     for(int k=10; k<=20; k++) {
 
 
-        vector<char> booleanstring(k, '0');
-        booleanstring.push_back('1');
-        booleanstring.insert(booleanstring.end(), booleanstring.begin(), booleanstring.end());
-        booleanstring.pop_back();
-        booleanstring.pop_back();
+        if(my_rank==0){
+            vector<char> booleanstring(k, '0');
+            booleanstring.push_back('1');
+            booleanstring.insert(booleanstring.end(), booleanstring.begin(), booleanstring.end());
+            booleanstring.pop_back();
+            booleanstring.pop_back();
+            stringSize = booleanstring.size();
+            MPI_BCast(&stringSize, 1, MPI_INT, 0, MPI_COMM_WORLD);
+            MPI_BCast(&booleanstring[0], stringSize, MPI_CHAR, 0, MPI_COMM_WORLD);
+        }
+        else{
+            MPI_BCast(&stringSize, 1, MPI_INT, 0, MPI_COMM_WORLD);
+            MPI_BCast(&booleanstring[0], stringSize, MPI_CHAR, 0, MPI_COMM_WORLD);
+        }
+
 
         //Find index of partition for process
         int partSize = booleanstring.size() / comm_sz;

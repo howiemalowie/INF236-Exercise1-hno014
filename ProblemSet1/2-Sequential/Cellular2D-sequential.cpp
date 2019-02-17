@@ -2,7 +2,6 @@
 // Created by howiemalowie on 2/1/19.
 //
 
-#include "Cellular2D-sequential.h"
 #include<iostream>
 #include<stdio.h>
 #include<stdlib.h>
