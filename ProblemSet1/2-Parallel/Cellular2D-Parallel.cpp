@@ -321,9 +321,7 @@ int main(int argc, char **argv){
                     }
 
                     time = MPI_Wtime()-time;
-                    printf("Time to compute step %d with boardsize %d and %d processes: %.6f seconds.\n", t, n, comm_sz, time);
-
-                    board = newLines;
+		    printf("%.6f", time);	
                 } else {
                     //Send updated cells to root
                     int d = newLines.size();
