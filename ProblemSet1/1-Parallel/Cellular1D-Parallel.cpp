@@ -17,6 +17,7 @@ int main(int argc, char **argv) {
 
     string file = argv[1];
     int t = atoi(argv[2]);
+    int k = atoi(argv[3]);
 
     int comm_sz;
     int my_rank;
@@ -39,8 +40,6 @@ int main(int argc, char **argv) {
     MPI_Init(&argc, &argv);
     MPI_Comm_size(MPI_COMM_WORLD, &comm_sz);
     MPI_Comm_rank(MPI_COMM_WORLD, &my_rank);
-
-    for(int k=10; k<=20; k++) {
 
         if(my_rank == 0){
             vector<char> booleanstring(pow(2.0, k), '0');
@@ -209,7 +208,7 @@ int main(int argc, char **argv) {
             time = MPI_Wtime()-time;
             printf("%.6f\n", time);
         }
-    }
+
 
 
 
