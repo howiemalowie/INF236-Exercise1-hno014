@@ -6,6 +6,7 @@
 #include <vector>
 #include <map>
 #include <ctime>
+#include <cmath>
 
 using namespace std;
 
@@ -19,7 +20,6 @@ int main(int argc, char **argv) {
 
     int comm_sz;
     int my_rank;
-    clock_t start;
     double time;
 
     //Read file
@@ -41,8 +41,8 @@ int main(int argc, char **argv) {
 
     for(int k=10; k<=20; k++) {
 
-
-        vector<char> booleanstring(k, '0');
+	
+        vector<char> booleanstring(pow(2.0, k), '0');
         booleanstring.push_back('1');
         booleanstring.insert(booleanstring.end(), booleanstring.begin(), booleanstring.end());
         booleanstring.pop_back();
@@ -63,7 +63,7 @@ int main(int argc, char **argv) {
 
 
         if (my_rank == 0) {
-            start = clock();
+            time = MPI_Wtime();
         }
 
         for (int i = 0; i < t; i++) {
@@ -187,14 +187,12 @@ int main(int argc, char **argv) {
                 MPI_Bcast(booleanstring.data(), booleanstring.size(), MPI_CHAR, 0, MPI_COMM_WORLD);
 
             }
-            //Wait until all processes have updated the string to continue
-            MPI_Barrier(MPI_COMM_WORLD);
 
         }
 
         if (my_rank == 0) {
-            time = (clock() - start) / (double) CLOCKS_PER_SEC;
-            printf("Time to compute step %d with m of size %d and %d processes: %.4f seconds.\n", t, k, comm_sz, time);
+            time = MPI_Wtime()-time;
+            printf("%.6f\n", time);
         }
     }
 
