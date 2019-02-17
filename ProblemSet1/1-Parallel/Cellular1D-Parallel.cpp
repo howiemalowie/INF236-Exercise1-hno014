@@ -21,6 +21,7 @@ int main(int argc, char **argv) {
     int comm_sz;
     int my_rank;
     double time;
+    int stringSize;
 
     //Read file
     ifstream myReadFile(file);
@@ -41,12 +42,26 @@ int main(int argc, char **argv) {
 
     for(int k=10; k<=20; k++) {
 
+        if(my_rank == 0){
+            vector<char> booleanstring(pow(2.0, k), '0');
+            booleanstring.push_back('1');
+            booleanstring.insert(booleanstring.end(), booleanstring.begin(), booleanstring.end());
+            booleanstring.pop_back();
+            booleanstring.pop_back();
+
+            stringSize = booleanString.size();
+            MPI_Bcast(&stringSize, 1, MPI_INT, 0, MPI_COMM_WORLD);
+            MPI_Bcast(&booleanstring[0], stringSize, MPI_CHAR, 0, MPI_COMM_WORLD);
+        }
+        else{
+            vector<char> booleanstring;
+            MPI_Bcast(&stringSize, 1, MPI_INT, 0, MPI_COMM_WORLD);
+            booleanstring.resize(stringSize);
+            MPI_Bcast(&booleanstring[0], stringSize, MPI_CHAR, 0, MPI_COMM_WORLD);
+        }
+
 	
-        vector<char> booleanstring(pow(2.0, k), '0');
-        booleanstring.push_back('1');
-        booleanstring.insert(booleanstring.end(), booleanstring.begin(), booleanstring.end());
-        booleanstring.pop_back();
-        booleanstring.pop_back();
+
 
         //Find index of partition for process
         int partSize = booleanstring.size() / comm_sz;
