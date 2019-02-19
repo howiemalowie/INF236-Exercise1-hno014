@@ -59,45 +59,45 @@ RM = /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel
+CMAKE_SOURCE_DIR = /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug
+CMAKE_BINARY_DIR = /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug
 
 #=============================================================================
-# Target rules for target CMakeFiles/Cellular1D-Parallel.dir
+# Target rules for target CMakeFiles/main.dir
 
 # All Build rule for target.
-CMakeFiles/Cellular1D-Parallel.dir/all:
-	$(MAKE) -f CMakeFiles/Cellular1D-Parallel.dir/build.make CMakeFiles/Cellular1D-Parallel.dir/depend
-	$(MAKE) -f CMakeFiles/Cellular1D-Parallel.dir/build.make CMakeFiles/Cellular1D-Parallel.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target Cellular1D-Parallel"
-.PHONY : CMakeFiles/Cellular1D-Parallel.dir/all
+CMakeFiles/main.dir/all:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/depend
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : CMakeFiles/main.dir/all
 
 # Include target in all.
-all: CMakeFiles/Cellular1D-Parallel.dir/all
+all: CMakeFiles/main.dir/all
 
 .PHONY : all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Cellular1D-Parallel.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Cellular1D-Parallel.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles 0
-.PHONY : CMakeFiles/Cellular1D-Parallel.dir/rule
+CMakeFiles/main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles 0
+.PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
-Cellular1D-Parallel: CMakeFiles/Cellular1D-Parallel.dir/rule
+main: CMakeFiles/main.dir/rule
 
-.PHONY : Cellular1D-Parallel
-
-# clean rule for target.
-CMakeFiles/Cellular1D-Parallel.dir/clean:
-	$(MAKE) -f CMakeFiles/Cellular1D-Parallel.dir/build.make CMakeFiles/Cellular1D-Parallel.dir/clean
-.PHONY : CMakeFiles/Cellular1D-Parallel.dir/clean
+.PHONY : main
 
 # clean rule for target.
-clean: CMakeFiles/Cellular1D-Parallel.dir/clean
+CMakeFiles/main.dir/clean:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/clean
+.PHONY : CMakeFiles/main.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/main.dir/clean
 
 .PHONY : clean
 

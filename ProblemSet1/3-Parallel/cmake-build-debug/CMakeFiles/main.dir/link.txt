@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/main.dir/Branching-Parallel.cpp.o  -o main 

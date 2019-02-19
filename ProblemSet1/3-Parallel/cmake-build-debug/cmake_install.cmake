@@ -1,4 +1,4 @@
-# Install script for directory: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel
+# Install script for directory: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

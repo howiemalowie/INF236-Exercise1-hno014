@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/Cellular1D-Parallel.cpp" "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/Cellular1D-Parallel.dir/Cellular1D-Parallel.cpp.o"
+  "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/Branching-Parallel.cpp" "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/main.dir/Branching-Parallel.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

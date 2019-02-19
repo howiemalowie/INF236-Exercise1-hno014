@@ -48,10 +48,10 @@ RM = /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel
+CMAKE_SOURCE_DIR = /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug
+CMAKE_BINARY_DIR = /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Cellular1D-Parallel
+# Target rules for targets named main
 
 # Build rule for target.
-Cellular1D-Parallel: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Cellular1D-Parallel
-.PHONY : Cellular1D-Parallel
+main: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 main
+.PHONY : main
 
 # fast build rule for target.
-Cellular1D-Parallel/fast:
-	$(MAKE) -f CMakeFiles/Cellular1D-Parallel.dir/build.make CMakeFiles/Cellular1D-Parallel.dir/build
-.PHONY : Cellular1D-Parallel/fast
+main/fast:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/build
+.PHONY : main/fast
 
-Cellular1D-Parallel.o: Cellular1D-Parallel.cpp.o
+Branching-Parallel.o: Branching-Parallel.cpp.o
 
-.PHONY : Cellular1D-Parallel.o
+.PHONY : Branching-Parallel.o
 
 # target to build an object file
-Cellular1D-Parallel.cpp.o:
-	$(MAKE) -f CMakeFiles/Cellular1D-Parallel.dir/build.make CMakeFiles/Cellular1D-Parallel.dir/Cellular1D-Parallel.cpp.o
-.PHONY : Cellular1D-Parallel.cpp.o
+Branching-Parallel.cpp.o:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Branching-Parallel.cpp.o
+.PHONY : Branching-Parallel.cpp.o
 
-Cellular1D-Parallel.i: Cellular1D-Parallel.cpp.i
+Branching-Parallel.i: Branching-Parallel.cpp.i
 
-.PHONY : Cellular1D-Parallel.i
+.PHONY : Branching-Parallel.i
 
 # target to preprocess a source file
-Cellular1D-Parallel.cpp.i:
-	$(MAKE) -f CMakeFiles/Cellular1D-Parallel.dir/build.make CMakeFiles/Cellular1D-Parallel.dir/Cellular1D-Parallel.cpp.i
-.PHONY : Cellular1D-Parallel.cpp.i
+Branching-Parallel.cpp.i:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Branching-Parallel.cpp.i
+.PHONY : Branching-Parallel.cpp.i
 
-Cellular1D-Parallel.s: Cellular1D-Parallel.cpp.s
+Branching-Parallel.s: Branching-Parallel.cpp.s
 
-.PHONY : Cellular1D-Parallel.s
+.PHONY : Branching-Parallel.s
 
 # target to generate assembly for a file
-Cellular1D-Parallel.cpp.s:
-	$(MAKE) -f CMakeFiles/Cellular1D-Parallel.dir/build.make CMakeFiles/Cellular1D-Parallel.dir/Cellular1D-Parallel.cpp.s
-.PHONY : Cellular1D-Parallel.cpp.s
+Branching-Parallel.cpp.s:
+	$(MAKE) -f CMakeFiles/main.dir/build.make CMakeFiles/main.dir/Branching-Parallel.cpp.s
+.PHONY : Branching-Parallel.cpp.s
 
 # Help Target
 help:
@@ -157,11 +157,11 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... Cellular1D-Parallel"
+	@echo "... main"
 	@echo "... edit_cache"
-	@echo "... Cellular1D-Parallel.o"
-	@echo "... Cellular1D-Parallel.i"
-	@echo "... Cellular1D-Parallel.s"
+	@echo "... Branching-Parallel.o"
+	@echo "... Branching-Parallel.i"
+	@echo "... Branching-Parallel.s"
 .PHONY : help
 
 

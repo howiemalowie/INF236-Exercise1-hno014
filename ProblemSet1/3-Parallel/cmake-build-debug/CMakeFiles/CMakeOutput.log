@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,33 +23,33 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/3.13.2/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64187/fast"
-/usr/bin/make -f CMakeFiles/cmTC_64187.dir/build.make CMakeFiles/cmTC_64187.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64187.dir/testCCompiler.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_64187.dir/testCCompiler.c.o   -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_64187
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64187.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_64187.dir/testCCompiler.c.o  -o cmTC_64187 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ebcbf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ebcbf.dir/build.make CMakeFiles/cmTC_ebcbf.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ebcbf.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_ebcbf.dir/testCCompiler.c.o   -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_ebcbf
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebcbf.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_ebcbf.dir/testCCompiler.c.o  -o cmTC_ebcbf 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4c483/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4c483.dir/build.make CMakeFiles/cmTC_4c483.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o   -c /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_4c483
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c483.dir/link.txt --verbose=1
-/usr/bin/cc     -v CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o  -o cmTC_4c483 
+Run Build Command:"/usr/bin/make" "cmTC_a7f9c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7f9c.dir/build.make CMakeFiles/cmTC_a7f9c.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o   -c /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a7f9c
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7f9c.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o  -o cmTC_a7f9c 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -61,24 +61,24 @@ Thread model: posix
 gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c483' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBDmeCM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4c483 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c483' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7f9c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cctzeL1e.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a7f9c /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7f9c' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_4c483/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_4c483.dir/build.make CMakeFiles/cmTC_4c483.dir/build]
-  ignore line: [make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o   -c /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_4c483]
-  ignore line: [/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c483.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o  -o cmTC_4c483 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_a7f9c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_a7f9c.dir/build.make CMakeFiles/cmTC_a7f9c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o   -c /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a7f9c]
+  ignore line: [/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7f9c.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o  -o cmTC_a7f9c ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -90,13 +90,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_4c483' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccBDmeCM.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_4c483 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a7f9c' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cctzeL1e.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_a7f9c /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccBDmeCM.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctzeL1e.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -115,7 +115,7 @@ Parsed C implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_4c483] ==> ignore
+    arg [cmTC_a7f9c] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -127,7 +127,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_4c483.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a7f9c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--push-state] ==> ignore
     arg [--as-needed] ==> ignore
@@ -157,17 +157,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ed6fb/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ed6fb.dir/build.make CMakeFiles/cmTC_ed6fb.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ed6fb.dir/feature_tests.c.o
-/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_ed6fb.dir/feature_tests.c.o   -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ed6fb
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed6fb.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_ed6fb.dir/feature_tests.c.o  -o cmTC_ed6fb 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_7e26b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7e26b.dir/build.make CMakeFiles/cmTC_7e26b.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e26b.dir/feature_tests.c.o
+/usr/bin/cc   -std=c11 -o CMakeFiles/cmTC_7e26b.dir/feature_tests.c.o   -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_7e26b
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e26b.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_7e26b.dir/feature_tests.c.o  -o cmTC_7e26b 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -177,17 +177,17 @@ make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSe
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_94109/fast"
-/usr/bin/make -f CMakeFiles/cmTC_94109.dir/build.make CMakeFiles/cmTC_94109.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_94109.dir/feature_tests.c.o
-/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_94109.dir/feature_tests.c.o   -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_94109
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_94109.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_94109.dir/feature_tests.c.o  -o cmTC_94109 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_9706f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9706f.dir/build.make CMakeFiles/cmTC_9706f.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9706f.dir/feature_tests.c.o
+/usr/bin/cc   -std=c99 -o CMakeFiles/cmTC_9706f.dir/feature_tests.c.o   -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_9706f
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9706f.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_9706f.dir/feature_tests.c.o  -o cmTC_9706f 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -197,17 +197,17 @@ make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSe
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1d58d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1d58d.dir/build.make CMakeFiles/cmTC_1d58d.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1d58d.dir/feature_tests.c.o
-/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_1d58d.dir/feature_tests.c.o   -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1d58d
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d58d.dir/link.txt --verbose=1
-/usr/bin/cc      CMakeFiles/cmTC_1d58d.dir/feature_tests.c.o  -o cmTC_1d58d 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_2d1bf/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2d1bf.dir/build.make CMakeFiles/cmTC_2d1bf.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2d1bf.dir/feature_tests.c.o
+/usr/bin/cc   -std=c90 -o CMakeFiles/cmTC_2d1bf.dir/feature_tests.c.o   -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_2d1bf
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2d1bf.dir/link.txt --verbose=1
+/usr/bin/cc      CMakeFiles/cmTC_2d1bf.dir/feature_tests.c.o  -o cmTC_2d1bf 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -215,30 +215,30 @@ make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSe
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cd474/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cd474.dir/build.make CMakeFiles/cmTC_cd474.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cd474.dir/testCXXCompiler.cxx.o
-/usr/bin/c++     -o CMakeFiles/cmTC_cd474.dir/testCXXCompiler.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_cd474
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd474.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_cd474.dir/testCXXCompiler.cxx.o  -o cmTC_cd474 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_d5888/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d5888.dir/build.make CMakeFiles/cmTC_d5888.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d5888.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTC_d5888.dir/testCXXCompiler.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_d5888
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d5888.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_d5888.dir/testCXXCompiler.cxx.o  -o cmTC_d5888 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c8804/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c8804.dir/build.make CMakeFiles/cmTC_c8804.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++     -o CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o -c /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_c8804
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8804.dir/link.txt --verbose=1
-/usr/bin/c++      -v CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c8804 
+Run Build Command:"/usr/bin/make" "cmTC_96e6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_96e6f.dir/build.make CMakeFiles/cmTC_96e6f.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o -c /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_96e6f
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96e6f.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_96e6f 
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper
@@ -250,24 +250,24 @@ Thread model: posix
 gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8804' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8g84wj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8804 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8804' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96e6f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIj5mov.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_96e6f /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96e6f' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_c8804/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_c8804.dir/build.make CMakeFiles/cmTC_c8804.dir/build]
-  ignore line: [make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o -c /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_c8804]
-  ignore line: [/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8804.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c8804 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_96e6f/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_96e6f.dir/build.make CMakeFiles/cmTC_96e6f.dir/build]
+  ignore line: [make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o -c /home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_96e6f]
+  ignore line: [/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_96e6f.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_96e6f ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper]
@@ -279,13 +279,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 8.2.0 (Ubuntu 8.2.0-7ubuntu1) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/8/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/8/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_c8804' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8g84wj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_c8804 /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_96e6f' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/8/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIj5mov.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -z now -z relro -o cmTC_96e6f /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/8 -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/8/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/8/../../.. CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/8/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/8/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc8g84wj.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccIj5mov.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -304,7 +304,7 @@ Parsed CXX implicit link information from above output:
     arg [-znow] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_c8804] ==> ignore
+    arg [cmTC_96e6f] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/8/crtbeginS.o] ==> ignore
@@ -316,7 +316,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/8/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/8/../../..]
-    arg [CMakeFiles/cmTC_c8804.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_96e6f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -342,17 +342,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++2a] compiler features compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_41980/fast"
-/usr/bin/make -f CMakeFiles/cmTC_41980.dir/build.make CMakeFiles/cmTC_41980.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_41980.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_41980.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_41980
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41980.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_41980.dir/feature_tests.cxx.o  -o cmTC_41980 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_11e9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_11e9a.dir/build.make CMakeFiles/cmTC_11e9a.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_11e9a.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++2a -o CMakeFiles/cmTC_11e9a.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_11e9a
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_11e9a.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_11e9a.dir/feature_tests.cxx.o  -o cmTC_11e9a 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -415,17 +415,17 @@ make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSe
 
 
 Detecting CXX [-std=c++17] compiler features compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_3b406/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3b406.dir/build.make CMakeFiles/cmTC_3b406.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_3b406.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_3b406.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_3b406
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b406.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_3b406.dir/feature_tests.cxx.o  -o cmTC_3b406 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e776b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e776b.dir/build.make CMakeFiles/cmTC_e776b.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e776b.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++17 -o CMakeFiles/cmTC_e776b.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_e776b
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e776b.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_e776b.dir/feature_tests.cxx.o  -o cmTC_e776b 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -488,17 +488,17 @@ make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSe
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_5e539/fast"
-/usr/bin/make -f CMakeFiles/cmTC_5e539.dir/build.make CMakeFiles/cmTC_5e539.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_5e539.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_5e539.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_5e539
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e539.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_5e539.dir/feature_tests.cxx.o  -o cmTC_5e539 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_26f52/fast"
+/usr/bin/make -f CMakeFiles/cmTC_26f52.dir/build.make CMakeFiles/cmTC_26f52.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_26f52.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++14 -o CMakeFiles/cmTC_26f52.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_26f52
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26f52.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_26f52.dir/feature_tests.cxx.o  -o cmTC_26f52 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -561,17 +561,17 @@ make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSe
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_73d20/fast"
-/usr/bin/make -f CMakeFiles/cmTC_73d20.dir/build.make CMakeFiles/cmTC_73d20.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_73d20.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_73d20.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_73d20
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_73d20.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_73d20.dir/feature_tests.cxx.o  -o cmTC_73d20 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_5e656/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e656.dir/build.make CMakeFiles/cmTC_5e656.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e656.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++11 -o CMakeFiles/cmTC_5e656.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5e656
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e656.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_5e656.dir/feature_tests.cxx.o  -o cmTC_5e656 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -634,17 +634,17 @@ make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSe
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0bcf6/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0bcf6.dir/build.make CMakeFiles/cmTC_0bcf6.dir/build
-make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0bcf6.dir/feature_tests.cxx.o
-/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_0bcf6.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0bcf6
-/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0bcf6.dir/link.txt --verbose=1
-/usr/bin/c++       CMakeFiles/cmTC_0bcf6.dir/feature_tests.cxx.o  -o cmTC_0bcf6 
-make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/1-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_6684d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6684d.dir/build.make CMakeFiles/cmTC_6684d.dir/build
+make[1]: Entering directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_6684d.dir/feature_tests.cxx.o
+/usr/bin/c++    -std=c++98 -o CMakeFiles/cmTC_6684d.dir/feature_tests.cxx.o -c /home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_6684d
+/home/howiemalowie/Downloads/CLion-2018.3.3/clion-2018.3.3/bin/cmake/linux/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6684d.dir/link.txt --verbose=1
+/usr/bin/c++       CMakeFiles/cmTC_6684d.dir/feature_tests.cxx.o  -o cmTC_6684d 
+make[1]: Leaving directory '/home/howiemalowie/INF236-Exercise1-hno014/ProblemSet1/3-Parallel/cmake-build-debug/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
